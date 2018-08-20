@@ -1,0 +1,109 @@
+$turquoise: #1abc9c;
+$light-success: #49c9b0;
+$green-sea: #16a085;
+$emerland: #2ecc71;
+$nephritis: #27ae60;
+$petermann-river: #3498db;
+$light-primary: #5dade2;
+$belize-hole: #2980b9;
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+$wet-asphalt: #34495E;
+$light-dark: #5d6d7d;
+$midnight-blue: #2c3e50;
+$sun-flower: #f1c40f;
+$orange: #f39c12;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$alizarin: #e74c3c;
+$light-danger: #ec7064;
+$pomegranate: #c0392b;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  h2 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+}
+
+.buttons-container {
+  h4 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+  .buttons-row {
+    margin: 20px 0;
+  }
+}
+
+.success {
+  background-color: $turquoise;
+  border: 1px solid $turquoise;
+  color: #ffffff;
+}
+.primary {
+  background-color: $petermann-river;
+  border: 1px solid $petermann-river;
+  color: #ffffff;
+}
+.danger{
+  background-color: $alizarin;
+  border: 1px solid $alizarin;
+  color: #ffffff;
+}
+.dark{
+  background-color: $wet-asphalt;
+  border: 1px solid $wet-asphalt;
+  color: #ffffff;
+}
+.btn-light-success {
+  background-color: $light-success;
+  border: 1px solid $light-success;
+  color: #ffffff;
+}
+.btn-light-primary {
+  background-color: $light-primary;
+  border: 1px solid $light-primary;
+  color: #ffffff;
+}
+.btn-light-danger{
+  background-color: $light-danger;
+  border: 1px solid $light-danger;
+  color: #ffffff;
+}
+.btn-light-dark{
+  background-color: $light-dark;
+  border: 1px solid $light-dark;
+  color: #ffffff;
+}
+.btn-bright-success {
+  background-color: $green-sea;
+  border: 1px solid $green-sea;
+  color: #ffffff;
+}
+.btn-bright-primary {
+  background-color: $belize-hole;
+  border: 1px solid $belize-hole;
+  color: #ffffff;
+}
+.btn-bright-danger{
+  background-color: $pomegranate;
+  border: 1px solid $pomegranate;
+  color: #ffffff;
+}
+.btn-bright-dark{
+  background-color: $midnight-blue;
+  border: 1px solid $midnight-blue;
+  color: #ffffff;
+}
