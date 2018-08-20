@@ -54,6 +54,13 @@ body{
   }
 }
 
+.input-container {
+  h4 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+}
+
 .success {
   background-color: $turquoise;
   border: 1px solid $turquoise;
@@ -169,5 +176,35 @@ body{
         background-color: $turquoise;
         color: #ffffff;
     }
+  }
+}
+.form-group {
+  .form-control {
+    color: $silver;
+    border-color: $silver;
+    box-shadow: none;
+  }
+  .form-control::-moz-placeholder {
+    color: $silver;
+  }
+}
+.has-error {
+  .form-control {
+    color: $alizarin;
+    border-color: $alizarin;
+    box-shadow: none;
+  }
+  .form-control::-moz-placeholder {
+    color: $alizarin;
+  }
+}
+.has-success{
+  .form-control {
+    color: $turquoise;
+    border-color: $turquoise;
+    box-shadow: none;
+  }
+  .form-control::-moz-placeholder {
+    color: $turquoise;
   }
 }

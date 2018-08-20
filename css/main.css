@@ -21,6 +21,11 @@ body {
   font-weight: 700;
 }
 
+.input-container h4 {
+  color: #34495E;
+  font-weight: 700;
+}
+
 .success {
   background-color: #1abc9c;
   border: 1px solid #1abc9c;
@@ -142,6 +147,33 @@ body {
 .btn-group .dropdown-menu .dropdown-item:focus, .btn-group .dropdown-menu .dropdown-item:hover {
   background-color: #1abc9c;
   color: #ffffff;
+}
+
+.form-group .form-control {
+  color: #bdc3c7;
+  border-color: #bdc3c7;
+  box-shadow: none;
+}
+.form-group .form-control::-moz-placeholder {
+  color: #bdc3c7;
+}
+
+.has-error .form-control {
+  color: #e74c3c;
+  border-color: #e74c3c;
+  box-shadow: none;
+}
+.has-error .form-control::-moz-placeholder {
+  color: #e74c3c;
+}
+
+.has-success .form-control {
+  color: #1abc9c;
+  border-color: #1abc9c;
+  box-shadow: none;
+}
+.has-success .form-control::-moz-placeholder {
+  color: #1abc9c;
 }
 
 /*# sourceMappingURL=main.css.map */
