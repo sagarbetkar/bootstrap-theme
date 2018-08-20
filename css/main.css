@@ -26,6 +26,11 @@ body {
   font-weight: 700;
 }
 
+.progress-navigation h4 {
+  color: #34495E;
+  font-weight: 700;
+}
+
 .success {
   background-color: #1abc9c;
   border: 1px solid #1abc9c;
@@ -111,6 +116,21 @@ body {
 .navbar .dropdown-menu .dropdown-item:focus, .navbar .dropdown-menu .dropdown-item:hover {
   background-color: #1abc9c;
   color: #ffffff;
+}
+.navbar .navbar-unread {
+  background-color: #1abc9c;
+  border-radius: 50%;
+  color: white;
+  font-size: 0;
+  font-weight: 700;
+  min-height: 6px;
+  min-width: 6px;
+  line-height: 1;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  top: 35%;
+  margin-left: 5px;
 }
 .navbar .btn-dark {
   background-color: #34495E;

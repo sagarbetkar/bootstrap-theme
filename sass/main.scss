@@ -60,6 +60,12 @@ body{
     font-weight: 700;
   }
 }
+.progress-navigation {
+  h4 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+}
 
 .success {
   background-color: $turquoise;
@@ -137,6 +143,22 @@ body{
         background-color: $turquoise;
         color: #ffffff;
     }
+  }
+
+  .navbar-unread {
+    background-color: #1abc9c;
+    border-radius: 50%;
+    color: white;
+    font-size: 0;
+    font-weight: 700;
+    min-height: 6px;
+    min-width: 6px;
+    line-height: 1;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    margin-left: 5px;
   }
 
   .btn-dark {
