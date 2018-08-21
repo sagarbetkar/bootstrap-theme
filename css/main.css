@@ -21,6 +21,9 @@ body {
   font-weight: 700;
 }
 
+.input-container {
+  margin-bottom: 30px;
+}
 .input-container h4 {
   color: #34495E;
   font-weight: 700;
@@ -144,14 +147,12 @@ body {
 
 .btn-group .success {
   background-color: #1abc9c;
-  border-right: 3px solid #16a085;
 }
 .btn-group .dropdown-toggle {
   border-right: 0px;
 }
 .btn-group .btn-light-success {
   background-color: #49c9b0;
-  border-right: 3px solid #16a085;
 }
 .btn-group .btn-light-success.dropdown-toggle {
   border-right: 0;
@@ -194,6 +195,40 @@ body {
 }
 .has-success .form-control::-moz-placeholder {
   color: #1abc9c;
+}
+
+.progress, .ui-slider {
+  margin-bottom: 20px;
+}
+
+.ui-slider {
+  margin-bottom: 20px;
+}
+
+.row-pagination {
+  width: 100%;
+  margin: auto;
+}
+
+.page-link .pad {
+  padding-right: 15px;
+}
+
+.pagination .page-item a {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+.pagination .page-item a:hover {
+  background-color: #16a085;
+}
+
+.number .page-item a {
+  background-color: #bdc3c7;
+}
+
+.demo-pager .page-item a {
+  background-color: #34495E;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

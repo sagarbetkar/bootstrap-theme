@@ -8,8 +8,9 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/flat-ui.css">-->
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
   <body>
     <!-- Main Container -->
@@ -203,9 +204,9 @@
 
         <!-- Progress-bar & navigation -->
         <div class="container progress-navigation">
-          <h4>Progressbars and Sliders</h4>
           <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
+              <h4>Progressbars and Sliders</h4>
               <div class="progress">
                 <div class="progress-bar success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -217,27 +218,157 @@
                 </div>
               </div>
               <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
-                <div class="ui-slider-segment" style="margin-left: 40%;"></div>
-                <div class="ui-slider-segment" style="margin-left: 40%;"></div>
-                <div class="ui-slider-segment"></div>
-                <div class="ui-slider-segment"></div>
-                <div class="ui-slider-segment"></div>
-                <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 40%;"></div>
                 <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 40%;"></a>
               </div>
             </div>
-          </div>
           <div class="col-md-8 col-sm-8 col-xs-12">
-
+            <h4>Navigation</h4>
+            <div class="row row-pagination">
+              <div class="col">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-align-justify" aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-list" aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-th-list" aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-th" aria-hidden="true"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-lg demo-pager">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-caret-left pad" aria-hidden="true"></i> All messages</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="row row-pagination">
+              <div class="col">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination number">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true"><i class="fa fa-caret-left" aria-hidden="true"></i></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item"><a class="page-link" href="#">11</a></li>
+                    <li class="page-item"><a class="page-link" href="#">12</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true"><i class="fa fa-caret-right" aria-hidden="true"></i></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
+      <!-- Checkbox, Radio, toggles & Tags -->
+      <div class"container">
+        <div class="row">
+          <div class="col">
+            <h4>Checkboxes</h4>
+            <label class="checkbox" for="checkbox1">
+              <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+              Unchecked
+            </label>
+            <label class="checkbox" for="checkbox2">
+              <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
+              Checked
+            </label>
+            <label class="checkbox" for="checkbox3">
+              <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
+              Disabled unchecked
+            </label>
+            <label class="checkbox" for="checkbox4">
+              <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
+              Disabled checked
+            </label>
+          </div>
+          <div class="col">
+            <h4>Radiobuttons</h4>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
+              Radio is off
+            </label>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="">
+              Radio is on
+            </label>
+
+            <label class="radio">
+              <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio" disabled="">
+              Disabled radio is off
+            </label>
+            <label class="radio">
+              <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio" checked="" disabled="">
+              Disabled radio is on
+            </label>
+          </div>
+          <div class="col">
+            <h4>Toggles</h4>
+            <table width="100%">
+              <tr>
+                <td width="50%" class="pbm">
+                  <input type="checkbox" checked data-toggle="switch" id="custom-switch-01" />
+                </td>
+                <td class="pbm">
+                  <input type="checkbox" data-toggle="switch" id="custom-switch-02" />
+                </td>
+              </tr>
+              <tr>
+                <td class="pbm">
+                  <div class="bootstrap-switch-square">
+                    <input type="checkbox" checked data-toggle="switch" id="custom-switch-03" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>" />
+                  </div>
+                </td>
+                <td class="pbm">
+                  <div class="bootstrap-switch-square">
+                    <input type="checkbox" data-toggle="switch" id="custom-switch-04" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-5" />
+                </td>
+                <td>
+                  <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-6" />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col">
+            <h4>Tags</h4>
+            <div class="tagsinput-primary">
+              <input name="tagsinput" class="tagsinput" data-role="tagsinput" value="School, Teacher, Colleague" />
+            </div>
+          </div>
+        </div>
+      </div>
 
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <!--<script src="js/flat-ui.js"></script>
+      <script src="js/application.js"></script>-->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

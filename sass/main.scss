@@ -55,6 +55,7 @@ body{
 }
 
 .input-container {
+  margin-bottom: 30px;
   h4 {
     color: $wet-asphalt;
     font-weight: 700;
@@ -174,14 +175,13 @@ body{
 .btn-group {
   .success {
     background-color: $turquoise;
-    border-right: 3px solid $green-sea;
+
   }
   .dropdown-toggle {
     border-right: 0px;
   }
   .btn-light-success {
     background-color: $light-success;
-    border-right: 3px solid $green-sea;
     &.dropdown-toggle {
       border-right: 0;
     }
@@ -228,5 +228,45 @@ body{
   }
   .form-control::-moz-placeholder {
     color: $turquoise;
+  }
+}
+
+.progress, .ui-slider {
+    margin-bottom: 20px;
+}
+.ui-slider {
+    margin-bottom: 20px;
+}
+
+.row-pagination {
+  width: 100%;
+  margin: auto;
+}
+.page-link {
+  .pad {
+    padding-right: 15px;
+  }
+}
+
+.pagination {
+  .page-item  a{
+    background-color: $turquoise;
+    color: #ffffff;
+  }
+  .page-item a:hover {
+    background-color: $green-sea;
+  }
+}
+
+.number {
+  .page-item a{
+    background-color: $silver;
+  }
+}
+
+.demo-pager {
+  .page-item a {
+    background-color: $wet-asphalt;
+    color: #ffffff;
   }
 }
