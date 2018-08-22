@@ -34,6 +34,16 @@ body {
   font-weight: 700;
 }
 
+.check-radio-tooltip h4, .check-radio-tooltip h1, .check-radio-tooltip h2, .check-radio-tooltip h3, .check-radio-tooltip h5 {
+  color: #34495E;
+  font-weight: 700;
+}
+
+.color-swatches h4 {
+  color: #34495E;
+  font-weight: 700;
+}
+
 .success {
   background-color: #1abc9c;
   border: 1px solid #1abc9c;
@@ -229,6 +239,94 @@ body {
 .demo-pager .page-item a {
   background-color: #34495E;
   color: #ffffff;
+}
+
+.checkbox, .radio {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  transition: color 0.25s linear;
+  font-size: 14px;
+  min-height: 20px;
+  line-height: 1.5;
+}
+
+.pallete-item {
+  width: 140px;
+  float: left;
+  margin: 0 0 20px 20px;
+}
+.pallete-item .palette {
+  font-size: 14px;
+  line-height: 1.214;
+  color: white;
+  margin: 0;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.pallete-item .palette-turquoise {
+  background-color: #1abc9c;
+}
+.pallete-item .palette-green-sea {
+  background-color: #16a085;
+}
+.pallete-item .palette-emerald {
+  background-color: #2ecc71;
+}
+.pallete-item .palette-nephritis {
+  background-color: #27ae60;
+}
+.pallete-item .palette-peter-river {
+  background-color: #3498db;
+}
+.pallete-item .palette-belize-hole {
+  background-color: #2980b9;
+}
+.pallete-item .palette-amethyst {
+  background-color: #9b59b6;
+}
+.pallete-item .palette-wisteria {
+  background-color: #8e44ad;
+}
+.pallete-item .palette-wet-asphalt {
+  background-color: #34495e;
+}
+.pallete-item .palette-midnight-blue {
+  background-color: #2c3e50;
+}
+.pallete-item .palette-sun-flower {
+  background-color: #f1c40f;
+}
+.pallete-item .palette-orange {
+  background-color: #f39c12;
+}
+.pallete-item .palette-carrot {
+  background-color: #e67e22;
+}
+.pallete-item .palette-pumpkin {
+  background-color: #d35400;
+}
+.pallete-item .palette-alizarin {
+  background-color: #e74c3c;
+}
+.pallete-item .palette-pomegranate {
+  background-color: #c0392b;
+}
+.pallete-item .palette-clouds {
+  background-color: #ecf0f1;
+}
+.pallete-item .palette-silver {
+  background-color: #bdc3c7;
+}
+.pallete-item .palette-concrete {
+  background-color: #95a5a6;
+}
+.pallete-item .palette-asbestos {
+  background-color: #7f8c8d;
+}
+.pallete-item .palette-clouds {
+  color: #bdc3c7;
 }
 
 /*# sourceMappingURL=main.css.map */

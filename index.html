@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="css/flat-ui.css">-->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
@@ -217,9 +216,6 @@
                 <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
-              <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
-                <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 40%;"></a>
-              </div>
             </div>
           <div class="col-md-8 col-sm-8 col-xs-12">
             <h4>Navigation</h4>
@@ -282,7 +278,7 @@
       <!-- Checkbox, Radio, toggles & Tags -->
       <div class"container">
         <div class="row">
-          <div class="col">
+          <div class="col check-radio-tooltip">
             <h4>Checkboxes</h4>
             <label class="checkbox" for="checkbox1">
               <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
@@ -301,7 +297,7 @@
               Disabled checked
             </label>
           </div>
-          <div class="col">
+          <div class="col check-radio-tooltip">
             <h4>Radiobuttons</h4>
             <label class="radio">
               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
@@ -321,54 +317,134 @@
               Disabled radio is on
             </label>
           </div>
-          <div class="col">
-            <h4>Toggles</h4>
-            <table width="100%">
-              <tr>
-                <td width="50%" class="pbm">
-                  <input type="checkbox" checked data-toggle="switch" id="custom-switch-01" />
-                </td>
-                <td class="pbm">
-                  <input type="checkbox" data-toggle="switch" id="custom-switch-02" />
-                </td>
-              </tr>
-              <tr>
-                <td class="pbm">
-                  <div class="bootstrap-switch-square">
-                    <input type="checkbox" checked data-toggle="switch" id="custom-switch-03" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>" />
-                  </div>
-                </td>
-                <td class="pbm">
-                  <div class="bootstrap-switch-square">
-                    <input type="checkbox" data-toggle="switch" id="custom-switch-04" />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-5" />
-                </td>
-                <td>
-                  <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-6" />
-                </td>
-              </tr>
-            </table>
+          <div class="col check-radio-tooltip">
+            <h4>Headers</h4>
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
           </div>
-          <div class="col">
-            <h4>Tags</h4>
-            <div class="tagsinput-primary">
-              <input name="tagsinput" class="tagsinput" data-role="tagsinput" value="School, Teacher, Colleague" />
-            </div>
+          <div class="col check-radio-tooltip">
+
           </div>
+        </div>
+      </div>
+
+      <!--Color Swatches-->
+      <div class="container color-swatches">
+        <h4>Color Swatches</h4>
+        <div class="row">
+          <div class="col-10">
+            <div class="pallete-item">
+  			      <dl class="palette palette-turquoise">
+                  <dt>#1abc9c</dt>
+                  <dd>Turquoise</dd>
+                </dl>
+                <dl class="palette palette-green-sea">
+                  <dt>#16a085</dt>
+                  <dd>Green sea</dd>
+                </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-emerald">
+                <dt>#2ecc71</dt>
+                <dd>Emerald</dd>
+              </dl>
+              <dl class="palette palette-nephritis">
+                <dt>#27ae60</dt>
+                <dd>Nephritis</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-peter-river">
+                <dt>#3498db</dt>
+                <dd>Peter river</dd>
+              </dl>
+              <dl class="palette palette-belize-hole">
+                <dt>#2980b9</dt>
+                <dd>Belize hole</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-amethyst">
+                <dt>#9b59b6</dt>
+                <dd>Amethyst</dd>
+              </dl>
+              <dl class="palette palette-wisteria">
+                <dt>#8e44ad</dt>
+                <dd>Wisteria</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-wet-asphalt">
+                <dt>#34495e</dt>
+                <dd>Wet asphalt</dd>
+              </dl>
+              <dl class="palette palette-midnight-blue">
+                <dt>#2c3e50</dt>
+                <dd>Midnight blue</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-sun-flower">
+                <dt>#f1c40f</dt>
+                <dd>Sun flower</dd>
+              </dl>
+              <dl class="palette palette-orange">
+                <dt>#f39c12</dt>
+                <dd>Orange</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-carrot">
+                <dt>#e67e22</dt>
+                <dd>Carrot</dd>
+              </dl>
+              <dl class="palette palette-pumpkin">
+                <dt>#d35400</dt>
+                <dd>Pumpkin</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-alizarin">
+                <dt>#e74c3c</dt>
+                <dd>Alizarin</dd>
+              </dl>
+              <dl class="palette palette-pomegranate">
+                <dt>#c0392b</dt>
+                <dd>Pomegranate</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-clouds">
+                <dt>#ecf0f1</dt>
+                <dd>Clouds</dd>
+              </dl>
+              <dl class="palette palette-silver">
+                <dt>#bdc3c7</dt>
+                <dd>Silver</dd>
+              </dl>
+  		      </div>
+  		      <div class="pallete-item">
+  			      <dl class="palette palette-concrete">
+                <dt>#95a5a6</dt>
+                <dd>Concrete</dd>
+              </dl>
+              <dl class="palette palette-asbestos">
+                <dt>#7f8c8d</dt>
+                <dd>Asbestos</dd>
+              </dl>
+  		      </div>
+          </div>
+          <div class="col-2"></div>
         </div>
       </div>
 
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-      <!--<script src="js/flat-ui.js"></script>
-      <script src="js/application.js"></script>-->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

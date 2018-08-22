@@ -68,6 +68,20 @@ body{
   }
 }
 
+.check-radio-tooltip {
+  h4,h1,h2,h3,h5 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+}
+
+.color-swatches {
+  h4 {
+    color: $wet-asphalt;
+    font-weight: 700;
+  }
+}
+
 .success {
   background-color: $turquoise;
   border: 1px solid $turquoise;
@@ -268,5 +282,113 @@ body{
   .page-item a {
     background-color: $wet-asphalt;
     color: #ffffff;
+  }
+}
+
+.checkbox, .radio {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  transition: color .25s linear;
+  font-size: 14px;
+  min-height: 20px;
+  line-height: 1.5;
+}
+
+.pallete-item {
+  width: 140px;
+  float: left;
+  margin: 0 0 20px 20px;
+  .palette {
+    font-size: 14px;
+    line-height: 1.214;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+  .palette-turquoise {
+    background-color: #1abc9c;
+  }
+
+  .palette-green-sea {
+    background-color: #16a085;
+  }
+
+  .palette-emerald {
+    background-color: #2ecc71;
+  }
+
+  .palette-nephritis {
+    background-color: #27ae60;
+  }
+
+  .palette-peter-river {
+    background-color: #3498db;
+  }
+
+  .palette-belize-hole {
+    background-color: #2980b9;
+  }
+
+  .palette-amethyst {
+    background-color: #9b59b6;
+  }
+
+  .palette-wisteria {
+    background-color: #8e44ad;
+  }
+
+  .palette-wet-asphalt {
+    background-color: #34495e;
+  }
+
+  .palette-midnight-blue {
+    background-color: #2c3e50;
+  }
+
+  .palette-sun-flower {
+    background-color: #f1c40f;
+  }
+
+  .palette-orange {
+    background-color: #f39c12;
+  }
+
+  .palette-carrot {
+    background-color: #e67e22;
+  }
+
+  .palette-pumpkin {
+    background-color: #d35400;
+  }
+
+  .palette-alizarin {
+    background-color: #e74c3c;
+  }
+
+  .palette-pomegranate {
+    background-color: #c0392b;
+  }
+
+  .palette-clouds {
+    background-color: #ecf0f1;
+  }
+
+  .palette-silver {
+    background-color: #bdc3c7;
+  }
+
+  .palette-concrete {
+    background-color: #95a5a6;
+  }
+
+  .palette-asbestos {
+    background-color: #7f8c8d;
+  }
+
+  .palette-clouds {
+    color: #bdc3c7;
   }
 }
