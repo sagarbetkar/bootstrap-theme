@@ -1,4 +1,10 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@font-face {
+  font-family: "Flat-UI-Pro-Icons";
+  src: url("../fonts/glyphicons/flat-ui-pro-icons-regular.eot");
+  src: url("../fonts/glyphicons/flat-ui-pro-icons-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons/flat-ui-pro-icons-regular.woff") format("woff"), url("../fonts/glyphicons/flat-ui-pro-icons-regular.ttf") format("truetype"), url("../fonts/glyphicons/flat-ui-pro-icons-regular.svg#flat-ui-pro-icons-regular") format("svg");
+}
 body {
   font-family: "Lato", sans-serif;
 }
@@ -42,6 +48,29 @@ body {
 .color-swatches h4 {
   color: #34495E;
   font-weight: 700;
+}
+
+.Glyphs h4 {
+  color: #34495E;
+  font-weight: 700;
+}
+.Glyphs .row .col {
+  margin: 10px 0;
+}
+.Glyphs .row .col img {
+  color: #34495E !important;
+}
+
+.fui-plus:before {
+  content: "";
+}
+
+.vector-icons h4 {
+  color: #34495E;
+  font-weight: 700;
+}
+.vector-icons .row .col img {
+  margin: 15px 0;
 }
 
 .success {
